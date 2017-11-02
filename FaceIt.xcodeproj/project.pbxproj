@@ -12,6 +12,7 @@
 		D074C1041F716DEF00FD944D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D074C1021F716DEF00FD944D /* Main.storyboard */; };
 		D074C1061F716DEF00FD944D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D074C1051F716DEF00FD944D /* Assets.xcassets */; };
 		D074C1091F716DEF00FD944D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D074C1071F716DEF00FD944D /* LaunchScreen.storyboard */; };
+		D074C1111F716E2500FD944D /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074C1101F716E2500FD944D /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D074C1051F716DEF00FD944D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D074C1081F716DEF00FD944D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D074C10A1F716DEF00FD944D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D074C1101F716E2500FD944D /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D074C0FE1F716DEF00FD944D /* AppDelegate.swift */,
 				D074C1001F716DEF00FD944D /* ViewController.swift */,
+				D074C1101F716E2500FD944D /* FaceView.swift */,
 				D074C1021F716DEF00FD944D /* Main.storyboard */,
 				D074C1051F716DEF00FD944D /* Assets.xcassets */,
 				D074C1071F716DEF00FD944D /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				D074C1011F716DEF00FD944D /* ViewController.swift in Sources */,
 				D074C0FF1F716DEF00FD944D /* AppDelegate.swift in Sources */,
+				D074C1111F716E2500FD944D /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QD39SW5YJ4;
 				INFOPLIST_FILE = FaceIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Din.Project.Demo.FaceIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QD39SW5YJ4;
 				INFOPLIST_FILE = FaceIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Din.Project.Demo.FaceIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
